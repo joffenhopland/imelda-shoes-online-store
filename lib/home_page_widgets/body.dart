@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:imelda_shoes_online_store/constants.dart';
 import 'package:imelda_shoes_online_store/models/product.dart';
-
 import '../screens/details_page.dart';
 import 'item_card.dart';
 

@@ -24,16 +24,16 @@ class _HomePageState extends State<HomePage> {
   }
 
   // load all customers
-  Future loadAllCustomers() async {
-    final customers = await ImeldaShoesApi().getAllCustomers();
-    setState(() => this.customers = customers);
-  }
+  // Future loadAllCustomers() async {
+  //   final customers = await ImeldaShoesApi().getAllCustomers();
+  //   setState(() => this.customers = customers);
+  // }
 
   @override
   void initState() {
     super.initState();
     loadAllProducts();
-    loadAllCustomers();
+    // loadAllCustomers();
   }
 
   @override

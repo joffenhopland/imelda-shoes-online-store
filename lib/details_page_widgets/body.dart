@@ -31,6 +31,11 @@ class Body extends StatelessWidget {
                   padding: const EdgeInsets.all(8.0),
                   child: Description(product: product),
                 ),
+                ElevatedButton(onPressed: () {},
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: kTextColor
+                    ),
+                    child: Text("Add to cart"))
               ],
             ),
           )
